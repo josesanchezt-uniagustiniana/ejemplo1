@@ -1,4 +1,4 @@
-name: Ejemplo 1 - CI - Uniagustiniana
+name: Ejemplo 1 - CI - Uniagustiniana 2026
 
 on:
   push:
@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout de código fuente
+    - name: Checkout de código fuente proyecto
       uses: actions/checkout@v4
 
     - name: Configurar Python 3.10
